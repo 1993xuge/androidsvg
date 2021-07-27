@@ -17,8 +17,7 @@ import com.caverock.androidsvg.utils.CSSBase;
  * </pre>
  */
 public class CSS extends CSSBase {
-    private CSS(String css)
-    {
+    private CSS(String css) {
         super(css);
     }
 
@@ -26,8 +25,7 @@ public class CSS extends CSSBase {
      * @param css css string to parse
      * @return pre-parsed CSS
      */
-    public static CSS getFromString(String css)
-    {
+    public static CSS getFromString(String css) {
         return new CSS(css);
     }
 }

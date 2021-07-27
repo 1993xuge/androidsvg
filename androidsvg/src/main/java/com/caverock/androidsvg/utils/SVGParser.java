@@ -22,8 +22,7 @@ import com.caverock.androidsvg.SVGParseException;
 
 import java.io.InputStream;
 
-interface SVGParser
-{
+interface SVGParser {
     /**
      * Try to parse the stream contents to an {@link SVG} instance.
      */
